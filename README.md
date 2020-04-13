@@ -2,10 +2,11 @@
 Prototype kit for rapidly creating an adjustable valve using 3D printer and common components. 
 This is a preliminary design that has not been thoroughly tested yet. It is not sealed from room air and may pull outside air in and leak air out.
 
-Time Estimate  
+Time to Build Estimate  
 Print Time ~1.2Hrs  
 Assembly ~0.5Hrs 
 
+![Valve](/Images/valve.gif)
 # Components
 ![Components](/Images/components.jpg)
 * Servo Mounting Bracket
@@ -34,6 +35,7 @@ Assembly ~0.5Hrs
 ![MateHorn](/Images/mate_horn.jpg)
 
 6. Now calibrate the fully open and close position of the valve. The open position is when the valve is as flat as possible obstruction the flow the least amount. Close position is when the valve is blocking as much as possible. **Ensure that the servo can reach the closed position without any humming or noise. Otherwise this could burnout the servo** Easiest method is to hook up a potentiometer to control the valve position, eyeball the fully open and closed position of valve, and record what values these are set at.
+![CalibDiagram](/Images/knob_cal_diagram.PNG)
 ![Calibration](/Images/calibration.jpg)
 
 # Todo
